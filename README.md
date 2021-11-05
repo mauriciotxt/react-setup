@@ -50,6 +50,10 @@ Pure TS: npm i @typescript-eslint/eslint-plugin @typescript-eslint/parser -D
   "code-runner.executorMap": {
     "TypeScript": "npx ts-node --files --trans"
   }
+  "prettier.eslintIntegration": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
 `
 
